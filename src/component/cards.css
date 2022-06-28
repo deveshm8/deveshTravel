@@ -1,0 +1,91 @@
+@media screen and (min-width: 650px) {
+  .innerCard {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding: 10px;
+    float: left;
+    margin-left: 20px;
+  }
+  #midtext {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .bigCard {
+    box-shadow: 0 1px 6px rgba(158, 100, 100, 0.62),
+      0 1px 4px rgba(0, 0, 0, 0.6);
+    margin-right: 20px;
+    height: 550px;
+  }
+  .bigCard img {
+    width: 450px;
+    /* width:100%; */
+  }
+  .bigCard h4,
+  h5 {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .bigCard p {
+    margin-left: 10px;
+  }
+  .smallCard {
+    margin-left: 10px;
+    word-break: break-word;
+    box-shadow: 0 1px 6px rgba(158, 100, 100, 0.62),
+      0 1px 4px rgba(0, 0, 0, 0.6);
+    height: 440px;
+  }
+  .smallCard img {
+    width: 260px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .smallCard h4 {
+    word-break: break-word;
+  }
+}
+.innerCard {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  padding: 10px;
+  float: left;
+  margin-left: 20px;
+}
+#midtext {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.bigCard {
+  box-shadow: 0 1px 6px rgba(158, 100, 100, 0.62), 0 1px 4px rgba(0, 0, 0, 0.6);
+  margin-right: 20px;
+  height: 550px;
+}
+.bigCard img {
+  width: 450px;
+  /* width:100%; */
+}
+.bigCard h4,
+h5 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.bigCard p {
+  margin-left: 10px;
+}
+.smallCard {
+  margin-left: 10px;
+  word-break: break-word;
+  box-shadow: 0 1px 6px rgba(158, 100, 100, 0.62), 0 1px 4px rgba(0, 0, 0, 0.6);
+  height: 440px;
+}
+.smallCard img {
+  width: 260px;
+  height: 200px;
+  object-fit: cover;
+}
+.smallCard h4 {
+  word-break: break-word;
+}
+@media (width: 650px) {
+  display: ;
+}

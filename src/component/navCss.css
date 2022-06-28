@@ -1,0 +1,59 @@
+@media screen and (min-width: 650px) {
+  .title {
+    color: azure;
+    margin-left: 40px;
+  }
+  #x {
+    color: brown;
+  }
+  .navbar {
+    background-color: #54959e;
+    height: 60px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    font-size: 15px;
+    /* position: sticky;
+  top: 0;
+  z-index: 999; */
+  }
+
+  .navbar-container {
+    display: flex;
+    /* justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px; */
+  }
+
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    /* width: 60vw; */
+    justify-content: flex-end;
+    margin-left: 350px;
+  }
+
+  .nav-link {
+    color: azure;
+    font-weight: bold;
+  }
+  #tut {
+    color: azure;
+  }
+  select {
+    background-color: #54959e;
+    border: none;
+    color: azure;
+    font-weight: bold;
+    margin-top: 7px;
+  }
+  button {
+    margin-top: 5px;
+    border: none;
+    background-color: chartreuse;
+  }
+}
